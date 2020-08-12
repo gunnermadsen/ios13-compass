@@ -15,6 +15,9 @@
 		80AF1D7A24E39C0100A61BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AF1D7824E39C0100A61BAC /* LaunchScreen.storyboard */; };
 		80AF1D8524E39C0200A61BAC /* CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AF1D8424E39C0200A61BAC /* CompassTests.swift */; };
 		80AF1D9024E39C0200A61BAC /* CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AF1D8F24E39C0200A61BAC /* CompassUITests.swift */; };
+		80AF1D9E24E39FF900A61BAC /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AF1D9D24E39FF900A61BAC /* Marker.swift */; };
+		80AF1DA024E3A11E00A61BAC /* CompassMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AF1D9F24E3A11E00A61BAC /* CompassMarkerView.swift */; };
+		80AF1DA224E4559200A61BAC /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AF1DA124E4559200A61BAC /* CompassHeading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		80AF1D8B24E39C0200A61BAC /* CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AF1D8F24E39C0200A61BAC /* CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassUITests.swift; sourceTree = "<group>"; };
 		80AF1D9124E39C0200A61BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AF1D9D24E39FF900A61BAC /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		80AF1D9F24E3A11E00A61BAC /* CompassMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassMarkerView.swift; sourceTree = "<group>"; };
+		80AF1DA124E4559200A61BAC /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		80AF1D6C24E39BFE00A61BAC /* Compass */ = {
 			isa = PBXGroup;
 			children = (
+				80AF1D9D24E39FF900A61BAC /* Marker.swift */,
+				80AF1D9F24E3A11E00A61BAC /* CompassMarkerView.swift */,
+				80AF1DA124E4559200A61BAC /* CompassHeading.swift */,
 				80AF1D6D24E39BFE00A61BAC /* AppDelegate.swift */,
 				80AF1D6F24E39BFE00A61BAC /* SceneDelegate.swift */,
 				80AF1D7124E39BFE00A61BAC /* ContentView.swift */,
@@ -267,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80AF1DA024E3A11E00A61BAC /* CompassMarkerView.swift in Sources */,
 				80AF1D6E24E39BFE00A61BAC /* AppDelegate.swift in Sources */,
+				80AF1D9E24E39FF900A61BAC /* Marker.swift in Sources */,
+				80AF1DA224E4559200A61BAC /* CompassHeading.swift in Sources */,
 				80AF1D7024E39BFE00A61BAC /* SceneDelegate.swift in Sources */,
 				80AF1D7224E39BFE00A61BAC /* ContentView.swift in Sources */,
 			);

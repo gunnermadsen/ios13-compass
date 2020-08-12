@@ -9,8 +9,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var compassHeading = CompassHeading()
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Capsule()
+                .frame(width: 5, height: 50)
+            ZStack {
+                ForEach(Marker.markers(), id: \.self) { marker in
+                    CompassMarkerView(marker: marker, compassDegress: 0)
+                }
+                .frame(width: 300, height: 300)
+                .rotationEffect(Angle(degrees: self.compassHeading.degrees))
+                .statusBar(hidden: true)
+            }
+        }
     }
 }
 
